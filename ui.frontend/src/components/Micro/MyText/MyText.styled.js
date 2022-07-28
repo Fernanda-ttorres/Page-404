@@ -1,13 +1,23 @@
 import styled from "styled-components";
 
 export const TextDiv = styled.div`
-    width: 19.1rem;
+    width: 24rem;
 `;
 
 export const StyledText = styled.p`
-    font-family: 'Space Mono', monospace;
-    color: #4F4F4F;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
+    &.description {
+        font-family: 'Space Mono', monospace;
+        color: #4F4F4F;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+
+    &.footer {
+        font-family: 'Montserrat';
+        color: #BDBDBD;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.1rem;
+    }
 `;
