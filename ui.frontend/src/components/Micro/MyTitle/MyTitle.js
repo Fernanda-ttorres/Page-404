@@ -3,11 +3,12 @@ import { MapTo } from "@adobe/aem-react-editable-components";
 import {StyledTitle, TitleDiv } from './MyTitle.styled';
 
 export const MyTitle = (props) => {
-    const mytextdefalt = "Digite um título aqui por favor.";
-    const container = "description"
+    const mytextdefault = "Digite um título aqui por favor.";
+    const myclassdefault = "description"
+    
   return (
     <TitleDiv>
-    <StyledTitle className={container}>{props.text ? props.text : mytextdefalt}</StyledTitle>
+    <StyledTitle className={props.container ? props.container : myclassdefault }>{props.text ? props.text : mytextdefault}</StyledTitle>
     </TitleDiv>
   )
 };
