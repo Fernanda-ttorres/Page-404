@@ -2,12 +2,12 @@ import React from 'react';
 import { MapTo } from "@adobe/aem-react-editable-components";
 import { StyledText,TextDiv } from "./MyText.styled";
 
-export const MyText = (props) => {
+export const MyText = ({text, container}) => {
     const mytextdefault = "Digite um texto aqui por favor.";
     const myclassdefault = "description"
   return (
     <TextDiv>
-    <StyledText className={props.container ? props.container : myclassdefault }>{props.text ? props.text : mytextdefault}</StyledText>
+    <StyledText className={container ? container : myclassdefault } text={text}>{text ? text : mytextdefault}</StyledText>
     </TextDiv>
   )
 };

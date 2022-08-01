@@ -24,6 +24,7 @@ import "./Micro/MyText/MyText";
 import "./Micro/MyButton2/MyButton2";
 import "./Micro/MyTitle/MyTitle"
 import "./MyHeader/MyHeader";
+import "./MyFooter/MyFooter";
 
 import { MapTo } from "@adobe/aem-react-editable-components";
 
