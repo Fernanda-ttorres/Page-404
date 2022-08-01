@@ -23,7 +23,7 @@ import MeuComponente from "./MeuComponente";
 import "./Micro/MyText/MyText";
 import "./Micro/MyButton2/MyButton2";
 import "./Micro/MyTitle/MyTitle"
-import "./MyHeader/MyHeader";
+import "./MyHeader2/MyHeader2";
 import "./MyFooter/MyFooter";
 
 import { MapTo } from "@adobe/aem-react-editable-components";
