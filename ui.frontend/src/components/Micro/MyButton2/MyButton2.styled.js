@@ -10,4 +10,9 @@ export const StyledButton = styled.button`
     font-weight: 700;
     font-size: 0.8rem;
     margin-top: 2.5rem;
+    cursor: pointer;
+
+    @media (max-width: 376px) {
+        margin-top: 1.4rem;
+    }
 `;
